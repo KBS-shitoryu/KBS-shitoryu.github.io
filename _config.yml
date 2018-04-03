@@ -1,6 +1,6 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
+title:              KBS
+bio:                'Kick Boxing & Shito-Ryu Karate Do Association'
 description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -36,14 +36,14 @@ disqus_shortname:   default
 # Social
 analytics-id:       "default"
 twitter:            default
-facebook:           default
+facebook:           kbs.karate
 instagram:          default
-github:             default
+github:             KBS-shitoryu/KBS-shitoryu.github.io/tree/master
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Qutub Vihar II, Block A, Qutub Vihar Phase 2, Qutub Vihar, Delhi, 110071
+phone:              098732 72955
+email:              kbsshitoryu@gmail.com
 
 # Gems
 gems:

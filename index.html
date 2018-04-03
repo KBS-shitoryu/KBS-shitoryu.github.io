@@ -20,6 +20,16 @@ sitemap:
 
 
 	</head>
+	<style>
+	.logo {
+	  text-align: center;
+	}
+	.logo img {
+	  width: 18%;
+	  height: 12%;
+	}
+	
+	</style>
 	<body class="is-loading">
 
 		<!-- Wrapper -->
@@ -27,12 +37,14 @@ sitemap:
 
 				<!-- Intro -->
 					<div id="intro">
+			<div class="logo"><img src="{{ "/images/placeholder.png" | absolute_url }}" alt="" /></div>
             <h1>{{site.title}}</h1>
-						<h2>The Jekyll Theme Version</h2>
-						<p>Massively is an HTML5 website theme designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>. Jekyll integration by <a href="https://somiibo.com">Somiibo</a></p>
+						<h2>Kick Boxing and Shito-Ryu Karate Do Association</h2>
+						 <p>Affliated to <a href="http://www.karateindia.org">Karate Association of India</a></p> 
+						 <!-- <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
+						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>. Jekyll integration by <a href="https://somiibo.com">Somiibo</a></p> -->
 						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly"></a></li>
 						</ul>
 					</div>
 
@@ -59,25 +71,30 @@ sitemap:
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>
-									<p>With only a few edits, you can have a stunningly beautiful website <br />
-                    nearly out of the box. Of course... you can always take it further <br />
+									<h2><a href="#">Learn the art of Karate</a></h2>
+									<p>KBS Karate Do Association is more than 10 years old <br />
+                    and we teach the style of shito-ryu here <br />
                     and make it something even more amazing!</p>
 								</header>
-								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
+								<a href="#" class="image main"><img src="{{ "/images/pictures/1.jpg" | absolute_url }}" alt="" /></a>
                 <p>Regardless of your website's function, the homepage is what brings the user in.
                   If it's anything short of intriguing, captivating, or just plain cool, you're out of luck and you might deter some visitors.</p>
                 <p>Your homepage must clearly describe what your site is about.
 									Having engaging content will in this manner enable you to offer and it will make your customers more inclined to purchase from you. Content is a way to position your organization in the correct place for your clients to discover you.
 								</p>
-								<p>
-									In this manner, content in itself is a standout amongst the best promoting apparatuses in your whole advertising toolbox! Rather than making your content around your promoting technique, it's limitlessly more productive to fabricate your showcasing around your content.
-								 </p>
+								
 
 							</article>
+	<article class="post">
+				<h2> Meet the founder of KBS : Sensei Ganesh Kumar</h2>
+	<p><span class="image left"><img src="{{ "/images/pictures/sir.jpg" | absolute_url }}" alt="" /></span>In both layman and nerd-speak, this is a paragraph. This is a paragraph that goes on the right side of an image. This is the text that goes under the heading and the subtitle. Paragraphs vary in length but in school we're taught to make them at least 7 sentences or else we risk getting a C.</p>
+	<ul class="actions">
+	<li><a href="#" class="button special">Learn more</a></li>
+	</ul>
+	</article>
 
 						<!-- Posts -->
-							<section class="posts">
+							<!-- <section class="posts">
                 {% for post in site.posts limit:3 %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
   								<article>
@@ -101,14 +118,10 @@ sitemap:
                   {% endif %}
                 {% endfor %}
 
-							</section>
+							</section> -->
 
 						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-                </ul>
-							</footer>
+							
 
 					</div>
 
